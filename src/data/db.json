@@ -1,0 +1,139 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ana Rojas",
+      "cellphone": "3012731188",
+      "password": "19063786",
+      "image": "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883__340.jpg",
+      "status":false,
+      "info": "La vida es bella",
+      "date_time": "1/10/2022 8:55 am"
+    },
+    {
+      "id": 2,
+      "name": "Juan Torres",
+      "cellphone": "3025305596",
+      "password": "15483142",
+      "image": "https://i.pinimg.com/736x/12/87/1b/12871b6e8385373148359ec16391f60f.jpg",
+      "status": false,
+      "info": "La vida es bella",
+      "date_time": "1/10/2022 8:55 am"
+    },
+    {
+      "id": 3,
+      "name": "Paola Torres",
+      "cellphone": "3165525074",
+      "password": "paola2811",
+      "image": "https://cdn.pixabay.com/photo/2014/12/16/22/25/woman-570883__340.jpg",
+      "status":false,
+      "info": "Goza la vida",
+      "date_time": "3/10/2022 8:20 am"
+    }
+    
+  ],
+  "messages": [
+    {
+      "idUser1": 1,
+      "idUser2":  2,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "date": "1/10/2022",
+          "hour": "5:00 pm",
+          "message": "Hola como estas",
+          "flag": true
+        },
+        {
+          "sendBy": 2,
+          "date": "1/10/2022",
+          "hour": "5:02 pm",
+          "message": "Bien y tú",
+          "flag": true
+        },
+        {
+          "sendBy": 1,
+          "date": "1/10/2022",
+          "hour": "5:10 pm",
+          "message": "Muy bien, me alegra que estes bien",
+          "flag": true
+        },
+        {
+          "sendBy": 2,
+          "date": "1/10/2022",
+          "hour": "5:10 pm",
+          "message": "como vas en el trabajo",
+          "flag": true
+        }
+      ]
+    },
+    {
+      "idUser1": 1,
+      "idUser2":  3,
+      "conversation": [
+        {
+          "sendBy": 1,
+          "date": "5/10/2022",
+          "hour": "8:00 pm",
+          "message": "Hola!",
+          "flag": true
+        },
+        {
+          "sendBy": 3,
+          "date": "5/10/2022",
+          "hour": "8:05 pm",
+          "message": "Hola, que tal?",
+          "flag": true
+        },
+        {
+          "sendBy": 1,
+          "date": "5/10/2022",
+          "hour": "8:20 pm",
+          "message": "Bien",
+          "flag": true
+        },
+        {
+          "sendBy": 3,
+          "date": "5/10/2022",
+          "hour": "8:12 pm",
+          "message": "Como va la vida?",
+          "flag": true
+        }
+      ]
+    },
+    {
+      "idUser1": 2,
+      "idUser2":  3,
+      "conversation": [
+        {
+          "sendBy": 2,
+          "date": "12/10/2022",
+          "hour": "7:00 am",
+          "message": "Holaaa",
+          "flag": true
+        },
+        {
+          "sendBy": 3,
+          "date": "12/10/2022",
+          "hour": "8:02 am",
+          "message": "Hola",
+          "flag": true
+        },
+        {
+          "sendBy": 2,
+          "date": "12/10/2022",
+          "hour": "8:05 am",
+          "message": "Feliz cumpleaños",
+          "flag": true
+        },
+        {
+          "sendBy": 3,
+          "date": "12/10/2022",
+          "hour": "8:08 am",
+          "message": "Gracias",
+          "flag": true
+        }
+      ]
+    }
+  ]
+}
